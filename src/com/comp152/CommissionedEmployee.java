@@ -10,6 +10,9 @@ public class CommissionedEmployee extends Employee{
     public void makeSale(){
         numberOfSales++;
     }
+    public void fileW2Forms(String name){
+
+    }
 
     @Override
     public double calculateBiWeeklyPay() {
